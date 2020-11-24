@@ -1,0 +1,326 @@
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+@media only screen and (min-width : 320px) {
+	.cta a {
+    border: 2px solid #000;
+    padding: 5px 15px;
+    margin-top: 50px;
+	color:#000;
+	text-transform:uppercase;
+	font-weight:500;
+}
+	.dropdown-menu{
+		border:none !important;
+		border-radius:0px !important;
+	}
+	.navbar-brand{
+		height:90px !important;
+	}
+	.logo {
+		height:100%;
+	}
+.section_title{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.light_bg_nav{
+	background-color:rgba(255,255,255,.50);
+}
+.bg_color{
+	background-color:#ECF0F1;
+	transition: background-color 0.5s ease;
+}
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+.navbar-brand, .navbar-nav > li > a {
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#2C3E50;
+}
+.row {
+	padding:30px;
+}
+.hero{
+	height:75vh !important;
+	}
+h1.tagline{
+	height: 90%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+	color:#ECF0F1;
+	font-weight:bold;
+	font-size:300%;
+	text-align:center;
+	}
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		padding:0px !important;
+	}	
+.no_overflow{
+		overflow:hidden;
+	}
+.text-center{
+	text-align:center;
+}
+.full_width_img {
+	min-width: 100%;
+}
+.align-middle{
+    display: block;
+    width: 100%;
+}
+.bg_red{
+	background-color:#E74C3C;
+	color:#ECF0F1 !important;
+}
+.bg_red div p ,.bg_red div a {
+	color:#ECF0F1 !important;
+	border-color:#ECF0F1 !important;
+}
+.text_divider h1{
+	text-align:center;
+	font-size:400%;
+	font-weight:bold;
+	color: #ECF0F1 !important;
+}
+.topobackground{
+	background-color:#ECF0F1;
+	background-image:url(http://sar1.dev.tylerhasenoehrl.com/wp-content/uploads/2016/10/backgroundpng.png);
+}
+.overlay_dark{
+	 background-color: rgba(0,0,0,0.2);
+	 width:100%;
+}
+.overlay_light{
+	 background-color: rgba(255,255,255,0.2);
+	 width:100%;
+}
+.dark_gray{
+	background-color:#333333;
+}
+.light_gray{
+	background-color:#666666;
+}
+.light_gray h1 , .light_gray h2 , .light_gray p , .light_gray a , .dark_gray h1 , .dark_gray h2, .dark_gray p , .dark_gray a {
+	color:#fff;
+}
+.footer_head{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.footer_head span{
+	font-weight:100;
+}
+footer p {
+	font-weight:100;
+}
+footer p strong{
+	font-weight:400;
+	text-transform:uppercase;
+}
+.text_divider{
+	padding:0;
+}
+.col-md-4.no_overflow.image_bg{
+	display:none;
+}
+.page_title{
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.col_title{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.prod_title{
+	text-transform:uppercase;
+	text-align:center;
+	background-color:#2C3E50;
+	color:#fff;
+	padding:30px 10px;
+	margin-bottom:0px;
+}
+.products{
+	display:block;
+}
+.product{
+	padding:10px !important;
+	display:block;
+	flex-direction:column;
+}
+.product ul{
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    border-left: 2px #DBD9D5 solid;
+    border-right: 2px #DBD9D5 solid;
+    display:block;
+	background-color:#ffffff;
+}
+}
+.product ul li{
+	padding:8px;
+}
+.product ul li:nth-child(odd){
+	background-color:#ECF0F1;
+}
+.prod_cta {
+    background-color: #E74C3C;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+	font-weight: bold;
+	margin: 0px !important;
+}
+.prod_cta a{
+	color:#DBD9D5 !important;
+}
+.navbar-toggle .icon-bar {
+ background-color: #fff
+}
+@media only screen and (max-width : 767px) {
+	.logo{
+		height:25px;
+	}
+	.navbar-brand{
+		height:auto !important;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom {
+		background-color:#ECF0F1;
+	}
+	.align_middle_row{
+		text-align:center;
+	}
+	.tagline{
+		text-align:center;
+	}
+	.dropdown-menu{
+		float:none !important;
+		position:relative !important;
+		display:block !important;
+    border:none !important;
+    border-radius:0px !important;
+    -webkit-box-shadow:none !important;
+    box-shadow: none !important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	background-color:transparent !important;
+	}
+	.dropdown-menu li a{
+	    margin-left: 15px;
+		font-weight:bold !important;
+	}
+div.product.col-md-3 {
+	display:block;
+}
+div.products{
+	display:block;
+}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) {
+	 .navbar-nav {
+		 float:right !important;
+	 }
+.section_title{
+	margin-bottom:75px;
+	font-size:400%;
+}
+.extra_padding{
+	padding:110px 75px !important;
+}
+.extra_padding p {
+	font-size:150%;
+}
+.cta {
+	margin-top:50px;
+	margin-bottom: 40px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.navbar-nav > li.menu-item-has-children:hover .dropdown-menu{
+	display:block !important;
+}
+.dropdown-menu{
+	background-color:#eee !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color:#eeeeee;
+	border:none !important;
+}
+	
+p {
+	font-size:125%;
+}
+	.padding-top{
+		padding-top:55px !important;
+	}
+.navbar-nav > li > a {	
+	padding: 35px 15px !important;
+}
+	.align_middle_row{
+		text-align:center;
+	}
+	.row{
+		padding:0px;
+	}
+	.col-md-4 p{
+		margin:25px;
+	}
+.text_divider h1{
+	margin:100px 0px;
+	font-size:700%;
+}
+/*.row{
+	padding:50px 0;
+}*/
+.page_title_row{
+	padding-top:120px;
+}
+.page_title{
+	font-size:500%;
+	margin-bottom:30px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.padding-norm {
+    padding: 10px 65px 10px 75px !important;
+}
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 2500px) {
+
+}
+.product {
+    width: 50%;
+}
+ul.page-numbers {
+    display: inline-block;
+    width: 100%;
+}
+ul.page-numbers li {
+    background-color: #E84C3D;
+    padding: 10px;
+    display: inline-block;
+}
+ul.page-numbers li, ul.page-numbers li a {
+color:#fff;
+}
+}
