@@ -4,7 +4,7 @@
 	<div class="container">
         <div class="col-md-6 padding-norm">
         	<h2 class="footer_head">get in touch<br/><span>with us</span></h2>
-            <p><strong>telephone:</strong>519.418.2035</p>
+            <p><strong>telephone:</strong>(519) 501-2037</p>
             <p><strong>email:</strong> info@sar-1.ca</p>
         </div>
         <div class="col-md-6 padding-norm">

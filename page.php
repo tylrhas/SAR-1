@@ -6,7 +6,6 @@
      </div>
  </div><!-- end header row -->
 
- <div class="row extra_padding">
  	<div class="container">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 		the_content();
@@ -14,6 +13,6 @@
 		<p>Sorry, no posts matched your criteria.</p>
 		<?php endif; ?>
     </div>
- </div>
+
 
 <?php get_footer(); ?>

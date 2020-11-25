@@ -218,3 +218,17 @@ function sar_1_scripts_loader() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'sar_1_scripts_loader' );
+
+// To change add to cart text on single product page
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' ); 
+function woocommerce_custom_single_add_to_cart_text() {
+    return __( 'Contact Us', 'woocommerce' ); 
+}
+
+add_filter( 'woocommerce_loop_add_to_cart_link', 'replacing_add_to_cart_button', 10, 2 );
+function replacing_add_to_cart_button( $button, $product  ) {
+    $button_text = __("Contact Us", "woocommerce");
+    $button = '<a class="button" href="' . esc_url( get_permalink( get_page_by_title( 'Contact Us' ) ) ). '">' . $button_text . '</a>';
+
+    return $button;
+}
