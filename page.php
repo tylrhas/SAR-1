@@ -5,7 +5,7 @@
         <h1 class="page_title"><?php echo get_the_title(); ?></h1>
      </div>
  </div><!-- end header row -->
-
+ <div class="row">
  	<div class="container">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 		the_content();
@@ -13,6 +13,7 @@
 		<p>Sorry, no posts matched your criteria.</p>
 		<?php endif; ?>
     </div>
+   </div>
 
 
 <?php get_footer(); ?>
