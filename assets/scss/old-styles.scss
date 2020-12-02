@@ -1,3 +1,9 @@
+.btn-primary, .wp-block-button .wp-block-button__link {
+	background-color: transparent;
+}
+.btn-primary:hover, .wp-block-button .wp-block-button__link:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
 .row {
 	margin-right: 0px !important;
 	margin-left: 0px !important;
