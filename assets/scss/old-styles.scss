@@ -311,6 +311,9 @@ input {
 
 /* Small Devices, Tablets */
 @media (min-width : 768px) {
+	.navbar-brand img {
+		height: 100% !important;
+	}
 	.navbar-nav {
 		float: right !important;
 	}
@@ -336,6 +339,10 @@ input {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	
+	.navbar-brand {
+		margin-right: 100px;
+	}
 	.navbar-nav>li.menu-item-has-children:hover .dropdown-menu {
 		display: block !important;
 	}
@@ -360,6 +367,7 @@ input {
 
 	.navbar-nav>li>a {
 		padding: 35px 15px !important;
+		font-size: 80%
 	}
 
 	.align_middle_row {
@@ -398,6 +406,9 @@ input {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.navbar-nav>li>a {
+		font-size: 100%
+	}
 	.padding-norm {
 		padding: 10px 65px 10px 75px !important;
 	}
