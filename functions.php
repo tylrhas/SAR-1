@@ -232,3 +232,17 @@ function replacing_add_to_cart_button( $button, $product  ) {
 
     return $button;
 }
+
+function footer_widget_init() {
+
+	register_sidebar( array(
+		'name'          => 'Foorter Right',
+		'id'            => 'footer_right_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="footer_head">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'footer_widget_init' );
