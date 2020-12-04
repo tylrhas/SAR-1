@@ -3,11 +3,12 @@
 <div class="row light_gray">
 	<div class="container">
         <div class="col-md-6 padding-norm">
-        <?php if ( is_active_sidebar( 'footer_right_1' ) ) : ?>
-	        <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-		<?php dynamic_sidebar( 'footer_right_1' ); ?>
-            </div><!-- #primary-sidebar -->
-        <?php endif; ?>
+            <?php if ( is_active_sidebar( 'footer_right_1' ) ) : ?>
+                <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+            <?php dynamic_sidebar( 'footer_right_1' ); ?>
+                </div><!-- #primary-sidebar -->
+            <?php endif; ?>
+        </div>
     </div>
 </div>
 <div class="row dark_gray">
